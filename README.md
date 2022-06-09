@@ -9,24 +9,3 @@
 ## Features
 
 * :white_check_mark: Display lifecycle hooks on any component
-
-## Step by step 👣
-
-<details>
-
-* `ng generate directive SpyLifecycleHooks`
-* Create in directive class methods:
-    + `ngOnInit`
-    + `ngOnChanges`
-    + `ngDoCheck`
-    + `ngAfterContentInit`
-    + `ngAfterContentChecked`
-    + `ngAfterViewInit`
-    + `ngAfterViewChecked`
-    + `ngOnDestroy`
-* Attach directive `appSpyLifecycleHooks` in any tag, ex.
-    ```html
-    <p appSpyLifecycleHooks></p>
-    ```
-
-</details>

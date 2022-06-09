@@ -1,18 +1,13 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { BrowserModule } from "@angular/platform-browser";
+import { NgModule } from "@angular/core";
 
-import { AppComponent } from './app.component';
-import { SpyLifecycleHooksDirective } from './spy-lifecycle-hooks.directive';
+import { AppComponent } from "./app.component";
+import { SpyLifecycleHooksDirective } from "./directives/spy-lifecycle-hooks/spy-lifecycle-hooks.directive";
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    SpyLifecycleHooksDirective
-  ],
-  imports: [
-    BrowserModule
-  ],
+  declarations: [AppComponent, SpyLifecycleHooksDirective],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
