@@ -2,7 +2,7 @@
 
 :ledger: Test app to display all lifecycle hooks in Angular component
 
-## Demo 🎉
+## Preview 🎉
 
 <https://piecioshka.github.io/test-angular-spy-lifecycle-hooks/>
 
