@@ -10,7 +10,6 @@
     "test:ci": "ng test --no-watch --no-progress --browsers ChromeHeadless",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "changelog": "git-changelog -t false -a 'Angular: Spy LifecycleHooks'",
     "predeploy": "ng build --base-href=/test-angular-spy-lifecycle-hooks/",
     "deploy": "NODE_DEBUG=gh-pages gh-pages -d dist/test-angular-spy-lifecycle-hooks/"
   },
@@ -39,7 +38,6 @@
     "codelyzer": "^6.0.2",
     "cross-env": "^7.0.3",
     "gh-pages": "^4.0.0",
-    "git-changelog": "^2.0.0",
     "jasmine-core": "^4.1.1",
     "jasmine-spec-reporter": "^7.0.0",
     "karma": "^6.3.20",
